@@ -1,6 +1,6 @@
 # Tutte polynomial replacement weights and verification
 
-Computational companion to **A sharp universal threshold for Tutte-polynomial inequalities**, by **Mingchang Liu**. Release **V1** accompanies manuscript **V1**.
+Computational companion to **A sharp universal threshold for Tutte-polynomial inequalities**. Release **V1** accompanies manuscript **V1**.
 
 The paper determines the least universal evaluation parameter for a product inequality of Tutte polynomials over finite matroids without loops or coloops. This repository supplies the rational replacement weights and exact calculations used in Lemma 3.1 and Appendix A, *Replacement weights and their verification*.
 
