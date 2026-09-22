@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper and this versioned computational companion when using these files."
+title: "Tutte polynomial replacement weights and verification"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Mingchang
+    email: mliu416@gatech.edu
+version: V1
+repository-code: "https://github.com/michaeliu4/tutte-threshold"
+url: "https://github.com/michaeliu4/tutte-threshold/releases/tag/V1"
+abstract: "Rational replacement weights and exact verification code accompanying A sharp universal threshold for Tutte-polynomial inequalities."
+keywords:
+  - Tutte polynomial
+  - matroid
+  - exact arithmetic
+date-released: "2026-09-22"

@@ -1,0 +1,3846 @@
+{
+  "pool": [
+    {
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "sig": [
+        1,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "expr": "e"
+    },
+    {
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "sig": [
+        2,
+        1,
+        2,
+        0,
+        4,
+        2
+      ],
+      "expr": [
+        "P",
+        "e",
+        "e"
+      ]
+    },
+    {
+      "n": 3,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "sig": [
+        1,
+        2,
+        4,
+        2,
+        2,
+        0
+      ],
+      "expr": [
+        "S",
+        "e",
+        "e"
+      ]
+    },
+    {
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "sig": [
+        3,
+        1,
+        2,
+        0,
+        8,
+        6
+      ],
+      "expr": [
+        "P",
+        "e",
+        [
+          "P",
+          "e",
+          "e"
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "sig": [
+        2,
+        3,
+        4,
+        2,
+        6,
+        0
+      ],
+      "expr": [
+        "S",
+        "e",
+        [
+          "P",
+          "e",
+          "e"
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "sig": [
+        3,
+        2,
+        6,
+        0,
+        4,
+        2
+      ],
+      "expr": [
+        "P",
+        "e",
+        [
+          "S",
+          "e",
+          "e"
+        ]
+      ]
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "sig": [
+        1,
+        3,
+        8,
+        6,
+        2,
+        0
+      ],
+      "expr": [
+        "S",
+        "e",
+        [
+          "S",
+          "e",
+          "e"
+        ]
+      ]
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "sig": [
+        2,
+        5,
+        8,
+        6,
+        6,
+        0
+      ],
+      "expr": [
+        "S",
+        "e",
+        [
+          "S",
+          "e",
+          [
+            "P",
+            "e",
+            "e"
+          ]
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "sig": [
+        5,
+        2,
+        6,
+        0,
+        8,
+        6
+      ],
+      "expr": [
+        "P",
+        "e",
+        [
+          "P",
+          "e",
+          [
+            "S",
+            "e",
+            "e"
+          ]
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "sig": [
+        4,
+        4,
+        4,
+        2,
+        14,
+        4
+      ],
+      "expr": [
+        "S",
+        [
+          "P",
+          "e",
+          "e"
+        ],
+        [
+          "P",
+          "e",
+          "e"
+        ]
+      ]
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "sig": [
+        4,
+        4,
+        14,
+        4,
+        4,
+        2
+      ],
+      "expr": [
+        "P",
+        [
+          "S",
+          "e",
+          "e"
+        ],
+        [
+          "S",
+          "e",
+          "e"
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "sig": [
+        6,
+        5,
+        4,
+        2,
+        30,
+        12
+      ],
+      "expr": [
+        "S",
+        [
+          "P",
+          "e",
+          "e"
+        ],
+        [
+          "P",
+          "e",
+          [
+            "P",
+            "e",
+            "e"
+          ]
+        ]
+      ]
+    },
+    {
+      "n": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "sig": [
+        5,
+        6,
+        30,
+        12,
+        4,
+        2
+      ],
+      "expr": [
+        "P",
+        [
+          "S",
+          "e",
+          "e"
+        ],
+        [
+          "S",
+          "e",
+          [
+            "S",
+            "e",
+            "e"
+          ]
+        ]
+      ]
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "sig": [
+        8,
+        12,
+        8,
+        6,
+        46,
+        8
+      ],
+      "expr": [
+        "S",
+        [
+          "P",
+          "e",
+          "e"
+        ],
+        [
+          "S",
+          [
+            "P",
+            "e",
+            "e"
+          ],
+          [
+            "P",
+            "e",
+            "e"
+          ]
+        ]
+      ]
+    },
+    {
+      "n": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "sig": [
+        12,
+        8,
+        46,
+        8,
+        8,
+        6
+      ],
+      "expr": [
+        "P",
+        [
+          "S",
+          "e",
+          "e"
+        ],
+        [
+          "P",
+          [
+            "S",
+            "e",
+            "e"
+          ],
+          [
+            "S",
+            "e",
+            "e"
+          ]
+        ]
+      ]
+    },
+    {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "sig": [
+        12,
+        16,
+        8,
+        6,
+        102,
+        24
+      ],
+      "expr": [
+        "S",
+        [
+          "P",
+          "e",
+          "e"
+        ],
+        [
+          "S",
+          [
+            "P",
+            "e",
+            "e"
+          ],
+          [
+            "P",
+            "e",
+            [
+              "P",
+              "e",
+              "e"
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "sig": [
+        16,
+        12,
+        102,
+        24,
+        8,
+        6
+      ],
+      "expr": [
+        "P",
+        [
+          "S",
+          "e",
+          "e"
+        ],
+        [
+          "P",
+          [
+            "S",
+            "e",
+            "e"
+          ],
+          [
+            "S",
+            "e",
+            [
+              "S",
+              "e",
+              "e"
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "n": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "sig": [
+        12,
+        16,
+        28,
+        18,
+        30,
+        12
+      ],
+      "expr": [
+        "S",
+        [
+          "P",
+          "e",
+          [
+            "P",
+            "e",
+            "e"
+          ]
+        ],
+        [
+          "P",
+          [
+            "S",
+            "e",
+            "e"
+          ],
+          [
+            "S",
+            "e",
+            "e"
+          ]
+        ]
+      ]
+    },
+    {
+      "n": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "sig": [
+        16,
+        12,
+        30,
+        12,
+        28,
+        18
+      ],
+      "expr": [
+        "P",
+        [
+          "S",
+          "e",
+          [
+            "S",
+            "e",
+            "e"
+          ]
+        ],
+        [
+          "S",
+          [
+            "P",
+            "e",
+            "e"
+          ],
+          [
+            "P",
+            "e",
+            "e"
+          ]
+        ]
+      ]
+    }
+  ],
+  "records": [
+    {
+      "i": 0,
+      "j": 0,
+      "op": "P",
+      "edges": 2,
+      "status": "new",
+      "replacement": 1
+    },
+    {
+      "i": 0,
+      "j": 0,
+      "op": "S",
+      "edges": 2,
+      "status": "new",
+      "replacement": 2
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "op": "P",
+      "edges": 3,
+      "status": "new",
+      "replacement": 3
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "op": "S",
+      "edges": 3,
+      "status": "new",
+      "replacement": 4
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "op": "P",
+      "edges": 3,
+      "status": "new",
+      "replacement": 5
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "op": "S",
+      "edges": 3,
+      "status": "new",
+      "replacement": 6
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "op": "P",
+      "edges": 4,
+      "status": "inadmissible"
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "op": "S",
+      "edges": 4,
+      "status": "reducible",
+      "replacement": 4
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "op": "P",
+      "edges": 4,
+      "status": "inadmissible"
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "op": "S",
+      "edges": 4,
+      "status": "new",
+      "replacement": 7
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "op": "P",
+      "edges": 4,
+      "status": "new",
+      "replacement": 8
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "op": "S",
+      "edges": 4,
+      "status": "inadmissible"
+    },
+    {
+      "i": 0,
+      "j": 6,
+      "op": "P",
+      "edges": 4,
+      "status": "reducible",
+      "replacement": 5
+    },
+    {
+      "i": 0,
+      "j": 6,
+      "op": "S",
+      "edges": 4,
+      "status": "inadmissible"
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "op": "P",
+      "edges": 4,
+      "status": "inadmissible"
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "op": "S",
+      "edges": 4,
+      "status": "new",
+      "replacement": 9
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "op": "P",
+      "edges": 4,
+      "status": "same_signature",
+      "replacement": 8
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "op": "S",
+      "edges": 4,
+      "status": "same_signature",
+      "replacement": 7
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "op": "P",
+      "edges": 4,
+      "status": "new",
+      "replacement": 10
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "op": "S",
+      "edges": 4,
+      "status": "inadmissible"
+    },
+    {
+      "i": 0,
+      "j": 7,
+      "op": "P",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 5
+    },
+    {
+      "i": 0,
+      "j": 7,
+      "op": "S",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 6
+    },
+    {
+      "i": 0,
+      "j": 8,
+      "op": "P",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 3
+    },
+    {
+      "i": 0,
+      "j": 8,
+      "op": "S",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 4
+    },
+    {
+      "i": 0,
+      "j": 9,
+      "op": "P",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 0,
+      "j": 9,
+      "op": "S",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 0,
+      "j": 10,
+      "op": "P",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 0,
+      "j": 10,
+      "op": "S",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "op": "P",
+      "edges": 5,
+      "status": "inadmissible"
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "op": "S",
+      "edges": 5,
+      "status": "new",
+      "replacement": 11
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "op": "P",
+      "edges": 5,
+      "status": "inadmissible"
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "op": "S",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "op": "P",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 3
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "op": "S",
+      "edges": 5,
+      "status": "inadmissible"
+    },
+    {
+      "i": 1,
+      "j": 6,
+      "op": "P",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 1,
+      "j": 6,
+      "op": "S",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 6
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "op": "P",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 3
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "op": "S",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "op": "P",
+      "edges": 5,
+      "status": "inadmissible"
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "op": "S",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 6
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "op": "P",
+      "edges": 5,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "op": "S",
+      "edges": 5,
+      "status": "inadmissible"
+    },
+    {
+      "i": 2,
+      "j": 6,
+      "op": "P",
+      "edges": 5,
+      "status": "new",
+      "replacement": 12
+    },
+    {
+      "i": 2,
+      "j": 6,
+      "op": "S",
+      "edges": 5,
+      "status": "inadmissible"
+    },
+    {
+      "i": 0,
+      "j": 11,
+      "op": "P",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 0,
+      "j": 11,
+      "op": "S",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 0,
+      "j": 12,
+      "op": "P",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 0,
+      "j": 12,
+      "op": "S",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 1,
+      "j": 7,
+      "op": "P",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 1,
+      "j": 7,
+      "op": "S",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 1,
+      "j": 8,
+      "op": "P",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 1,
+      "j": 8,
+      "op": "S",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 9
+    },
+    {
+      "i": 1,
+      "j": 9,
+      "op": "P",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 1,
+      "j": 9,
+      "op": "S",
+      "edges": 6,
+      "status": "new",
+      "replacement": 13
+    },
+    {
+      "i": 1,
+      "j": 10,
+      "op": "P",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 1,
+      "j": 10,
+      "op": "S",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 4
+    },
+    {
+      "i": 2,
+      "j": 7,
+      "op": "P",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 10
+    },
+    {
+      "i": 2,
+      "j": 7,
+      "op": "S",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 2,
+      "j": 8,
+      "op": "P",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 2,
+      "j": 8,
+      "op": "S",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 2,
+      "j": 9,
+      "op": "P",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 5
+    },
+    {
+      "i": 2,
+      "j": 9,
+      "op": "S",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 2,
+      "j": 10,
+      "op": "P",
+      "edges": 6,
+      "status": "new",
+      "replacement": 14
+    },
+    {
+      "i": 2,
+      "j": 10,
+      "op": "S",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "op": "P",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "op": "S",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 5
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "op": "P",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "op": "S",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "op": "P",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "op": "S",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 3,
+      "j": 6,
+      "op": "P",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 3,
+      "j": 6,
+      "op": "S",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "op": "P",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "op": "S",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "op": "P",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "op": "S",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 6,
+      "op": "P",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 6,
+      "op": "S",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 5,
+      "j": 5,
+      "op": "P",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 5,
+      "op": "S",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "op": "P",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "op": "S",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 6,
+      "j": 6,
+      "op": "P",
+      "edges": 6,
+      "status": "reducible",
+      "replacement": 4
+    },
+    {
+      "i": 6,
+      "j": 6,
+      "op": "S",
+      "edges": 6,
+      "status": "inadmissible"
+    },
+    {
+      "i": 0,
+      "j": 13,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 0,
+      "j": 13,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 0,
+      "j": 14,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 0,
+      "j": 14,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 1,
+      "j": 11,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 1,
+      "j": 11,
+      "op": "S",
+      "edges": 7,
+      "status": "new",
+      "replacement": 15
+    },
+    {
+      "i": 1,
+      "j": 12,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 1,
+      "j": 12,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 2,
+      "j": 11,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 2,
+      "j": 11,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 2,
+      "j": 12,
+      "op": "P",
+      "edges": 7,
+      "status": "new",
+      "replacement": 16
+    },
+    {
+      "i": 2,
+      "j": 12,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 3,
+      "j": 7,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 3,
+      "j": 7,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 3,
+      "j": 8,
+      "op": "P",
+      "edges": 7,
+      "status": "inadmissible"
+    },
+    {
+      "i": 3,
+      "j": 8,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 5
+    },
+    {
+      "i": 3,
+      "j": 9,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 3,
+      "j": 9,
+      "op": "S",
+      "edges": 7,
+      "status": "same_signature",
+      "replacement": 15
+    },
+    {
+      "i": 3,
+      "j": 10,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 3,
+      "j": 10,
+      "op": "S",
+      "edges": 7,
+      "status": "new",
+      "replacement": 17
+    },
+    {
+      "i": 4,
+      "j": 7,
+      "op": "P",
+      "edges": 7,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 7,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 4,
+      "j": 8,
+      "op": "P",
+      "edges": 7,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 8,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 4,
+      "j": 9,
+      "op": "P",
+      "edges": 7,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 9,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 4,
+      "j": 10,
+      "op": "P",
+      "edges": 7,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 10,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 5,
+      "j": 7,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 7,
+      "op": "S",
+      "edges": 7,
+      "status": "inadmissible"
+    },
+    {
+      "i": 5,
+      "j": 8,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 8,
+      "op": "S",
+      "edges": 7,
+      "status": "inadmissible"
+    },
+    {
+      "i": 5,
+      "j": 9,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 9,
+      "op": "S",
+      "edges": 7,
+      "status": "inadmissible"
+    },
+    {
+      "i": 5,
+      "j": 10,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 10,
+      "op": "S",
+      "edges": 7,
+      "status": "inadmissible"
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 4
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "op": "S",
+      "edges": 7,
+      "status": "inadmissible"
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "op": "P",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "op": "P",
+      "edges": 7,
+      "status": "new",
+      "replacement": 18
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 6,
+      "j": 10,
+      "op": "P",
+      "edges": 7,
+      "status": "same_signature",
+      "replacement": 16
+    },
+    {
+      "i": 6,
+      "j": 10,
+      "op": "S",
+      "edges": 7,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 0,
+      "j": 15,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 0,
+      "j": 15,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 0,
+      "j": 16,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 0,
+      "j": 16,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 0,
+      "j": 17,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 0,
+      "j": 17,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 0,
+      "j": 18,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 0,
+      "j": 18,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 1,
+      "j": 13,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 1,
+      "j": 13,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 1,
+      "j": 14,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 1,
+      "j": 14,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 9
+    },
+    {
+      "i": 2,
+      "j": 13,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 10
+    },
+    {
+      "i": 2,
+      "j": 13,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 2,
+      "j": 14,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 2,
+      "j": 14,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 3,
+      "j": 11,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 3,
+      "j": 11,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 3,
+      "j": 12,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 3,
+      "j": 12,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 4,
+      "j": 11,
+      "op": "P",
+      "edges": 8,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 11,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 4,
+      "j": 12,
+      "op": "P",
+      "edges": 8,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 12,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 5,
+      "j": 11,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 11,
+      "op": "S",
+      "edges": 8,
+      "status": "inadmissible"
+    },
+    {
+      "i": 5,
+      "j": 12,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 12,
+      "op": "S",
+      "edges": 8,
+      "status": "inadmissible"
+    },
+    {
+      "i": 6,
+      "j": 11,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 6,
+      "j": 11,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 6,
+      "j": 12,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 6,
+      "j": 12,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 7,
+      "j": 7,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 9
+    },
+    {
+      "i": 7,
+      "j": 7,
+      "op": "S",
+      "edges": 8,
+      "status": "inadmissible"
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 7,
+      "j": 9,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 5
+    },
+    {
+      "i": 7,
+      "j": 9,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 7,
+      "j": 10,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 5
+    },
+    {
+      "i": 7,
+      "j": 10,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 8,
+      "j": 8,
+      "op": "P",
+      "edges": 8,
+      "status": "inadmissible"
+    },
+    {
+      "i": 8,
+      "j": 8,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 9
+    },
+    {
+      "i": 8,
+      "j": 9,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 8,
+      "j": 9,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 4
+    },
+    {
+      "i": 8,
+      "j": 10,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 8,
+      "j": 10,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 4
+    },
+    {
+      "i": 9,
+      "j": 9,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 9,
+      "j": 9,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 10,
+      "j": 10,
+      "op": "P",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 10,
+      "j": 10,
+      "op": "S",
+      "edges": 8,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 1,
+      "j": 15,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 1,
+      "j": 15,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 1,
+      "j": 16,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 1,
+      "j": 16,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 9
+    },
+    {
+      "i": 1,
+      "j": 17,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 1,
+      "j": 17,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 1,
+      "j": 18,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 1,
+      "j": 18,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 9
+    },
+    {
+      "i": 2,
+      "j": 15,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 10
+    },
+    {
+      "i": 2,
+      "j": 15,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 2,
+      "j": 16,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 2,
+      "j": 16,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 2,
+      "j": 17,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 10
+    },
+    {
+      "i": 2,
+      "j": 17,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 2,
+      "j": 18,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 2,
+      "j": 18,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 3,
+      "j": 13,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 3,
+      "j": 13,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 3,
+      "j": 14,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 3,
+      "j": 14,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 4,
+      "j": 13,
+      "op": "P",
+      "edges": 9,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 13,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 4,
+      "j": 14,
+      "op": "P",
+      "edges": 9,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 14,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 5,
+      "j": 13,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 13,
+      "op": "S",
+      "edges": 9,
+      "status": "inadmissible"
+    },
+    {
+      "i": 5,
+      "j": 14,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 14,
+      "op": "S",
+      "edges": 9,
+      "status": "inadmissible"
+    },
+    {
+      "i": 6,
+      "j": 13,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 6,
+      "j": 13,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 6,
+      "j": 14,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 6,
+      "j": 14,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 7,
+      "j": 11,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 7,
+      "j": 11,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 7,
+      "j": 12,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 10
+    },
+    {
+      "i": 7,
+      "j": 12,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 8,
+      "j": 11,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 8,
+      "j": 11,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 9
+    },
+    {
+      "i": 8,
+      "j": 12,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 8,
+      "j": 12,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 9,
+      "j": 11,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 9,
+      "j": 11,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 9,
+      "j": 12,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 9,
+      "j": 12,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 10,
+      "j": 11,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 10,
+      "j": 11,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 10,
+      "j": 12,
+      "op": "P",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 10,
+      "j": 12,
+      "op": "S",
+      "edges": 9,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 3,
+      "j": 15,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 3,
+      "j": 15,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 3,
+      "j": 16,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 3,
+      "j": 16,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 3,
+      "j": 17,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 3,
+      "j": 17,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 3,
+      "j": 18,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 3,
+      "j": 18,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 4,
+      "j": 15,
+      "op": "P",
+      "edges": 10,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 15,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 4,
+      "j": 16,
+      "op": "P",
+      "edges": 10,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 16,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 4,
+      "j": 17,
+      "op": "P",
+      "edges": 10,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 17,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 4,
+      "j": 18,
+      "op": "P",
+      "edges": 10,
+      "status": "inadmissible"
+    },
+    {
+      "i": 4,
+      "j": 18,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 5,
+      "j": 15,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 15,
+      "op": "S",
+      "edges": 10,
+      "status": "inadmissible"
+    },
+    {
+      "i": 5,
+      "j": 16,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 16,
+      "op": "S",
+      "edges": 10,
+      "status": "inadmissible"
+    },
+    {
+      "i": 5,
+      "j": 17,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 17,
+      "op": "S",
+      "edges": 10,
+      "status": "inadmissible"
+    },
+    {
+      "i": 5,
+      "j": 18,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 5,
+      "j": 18,
+      "op": "S",
+      "edges": 10,
+      "status": "inadmissible"
+    },
+    {
+      "i": 6,
+      "j": 15,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 6,
+      "j": 15,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 6,
+      "j": 16,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 6,
+      "j": 16,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 6,
+      "j": 17,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 6,
+      "j": 17,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 6,
+      "j": 18,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 6,
+      "j": 18,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 7,
+      "j": 13,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 7,
+      "j": 13,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 7,
+      "j": 14,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 7,
+      "j": 14,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 8,
+      "j": 13,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 8,
+      "j": 13,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 8,
+      "j": 14,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 8,
+      "j": 14,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 9,
+      "j": 13,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 9,
+      "j": 13,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 9,
+      "j": 14,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 9,
+      "j": 14,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 10,
+      "j": 13,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 10,
+      "j": 13,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 10,
+      "j": 14,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 10,
+      "j": 14,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 11,
+      "j": 11,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 11,
+      "j": 11,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 11,
+      "j": 12,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 11,
+      "j": 12,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 12,
+      "j": 12,
+      "op": "P",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 12,
+      "j": 12,
+      "op": "S",
+      "edges": 10,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 7,
+      "j": 15,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 7,
+      "j": 15,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 7,
+      "j": 16,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 7,
+      "j": 16,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 7,
+      "j": 17,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 7,
+      "j": 17,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 7,
+      "j": 18,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 7,
+      "j": 18,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 8,
+      "j": 15,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 8,
+      "j": 15,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 8,
+      "j": 16,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 8,
+      "j": 16,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 8,
+      "j": 17,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 8,
+      "j": 17,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 8,
+      "j": 18,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 8,
+      "j": 18,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 9,
+      "j": 15,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 9,
+      "j": 15,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 9,
+      "j": 16,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 9,
+      "j": 16,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 9,
+      "j": 17,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 9,
+      "j": 17,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 9,
+      "j": 18,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 9,
+      "j": 18,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 10,
+      "j": 15,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 10,
+      "j": 15,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 10,
+      "j": 16,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 10,
+      "j": 16,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 10,
+      "j": 17,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 10,
+      "j": 17,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 10,
+      "j": 18,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 10,
+      "j": 18,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 11,
+      "j": 13,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 11,
+      "j": 13,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 11,
+      "j": 14,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 11,
+      "j": 14,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 4
+    },
+    {
+      "i": 12,
+      "j": 13,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 5
+    },
+    {
+      "i": 12,
+      "j": 13,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 12,
+      "j": 14,
+      "op": "P",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 12,
+      "j": 14,
+      "op": "S",
+      "edges": 11,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 11,
+      "j": 15,
+      "op": "P",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 11,
+      "j": 15,
+      "op": "S",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 11,
+      "j": 16,
+      "op": "P",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 11,
+      "j": 16,
+      "op": "S",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 11,
+      "j": 17,
+      "op": "P",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 11,
+      "j": 17,
+      "op": "S",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 11,
+      "j": 18,
+      "op": "P",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 11,
+      "j": 18,
+      "op": "S",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 12,
+      "j": 15,
+      "op": "P",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 12,
+      "j": 15,
+      "op": "S",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 12,
+      "j": 16,
+      "op": "P",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 12,
+      "j": 16,
+      "op": "S",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 12,
+      "j": 17,
+      "op": "P",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 12,
+      "j": 17,
+      "op": "S",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 12,
+      "j": 18,
+      "op": "P",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 12,
+      "j": 18,
+      "op": "S",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 13,
+      "j": 13,
+      "op": "P",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 5
+    },
+    {
+      "i": 13,
+      "j": 13,
+      "op": "S",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "op": "P",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "op": "S",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 14,
+      "j": 14,
+      "op": "P",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 14,
+      "j": 14,
+      "op": "S",
+      "edges": 12,
+      "status": "reducible",
+      "replacement": 4
+    },
+    {
+      "i": 13,
+      "j": 15,
+      "op": "P",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 5
+    },
+    {
+      "i": 13,
+      "j": 15,
+      "op": "S",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 13,
+      "j": 16,
+      "op": "P",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 13,
+      "j": 16,
+      "op": "S",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 13,
+      "j": 17,
+      "op": "P",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 13,
+      "j": 17,
+      "op": "S",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 13,
+      "j": 18,
+      "op": "P",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 13,
+      "j": 18,
+      "op": "S",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 14,
+      "j": 15,
+      "op": "P",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 14,
+      "j": 15,
+      "op": "S",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 14,
+      "j": 16,
+      "op": "P",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 14,
+      "j": 16,
+      "op": "S",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 4
+    },
+    {
+      "i": 14,
+      "j": 17,
+      "op": "P",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 14,
+      "j": 17,
+      "op": "S",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 14,
+      "j": 18,
+      "op": "P",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 14,
+      "j": 18,
+      "op": "S",
+      "edges": 13,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 15,
+      "j": 15,
+      "op": "P",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 15,
+      "j": 15,
+      "op": "S",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 15,
+      "j": 16,
+      "op": "P",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 15,
+      "j": 16,
+      "op": "S",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 15,
+      "j": 17,
+      "op": "P",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 15,
+      "j": 17,
+      "op": "S",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 15,
+      "j": 18,
+      "op": "P",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 15,
+      "j": 18,
+      "op": "S",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 16,
+      "j": 16,
+      "op": "P",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 16,
+      "j": 16,
+      "op": "S",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 16,
+      "j": 17,
+      "op": "P",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 16,
+      "j": 17,
+      "op": "S",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 16,
+      "j": 18,
+      "op": "P",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 16,
+      "j": 18,
+      "op": "S",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 17,
+      "j": 17,
+      "op": "P",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 0
+    },
+    {
+      "i": 17,
+      "j": 17,
+      "op": "S",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 17,
+      "j": 18,
+      "op": "P",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 17,
+      "j": 18,
+      "op": "S",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 2
+    },
+    {
+      "i": 18,
+      "j": 18,
+      "op": "P",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 1
+    },
+    {
+      "i": 18,
+      "j": 18,
+      "op": "S",
+      "edges": 14,
+      "status": "reducible",
+      "replacement": 0
+    }
+  ]
+}
