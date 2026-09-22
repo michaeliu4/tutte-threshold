@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """Check the finite replacement certificate using only exact stdlib arithmetic."""
+if not __debug__:
+    raise SystemExit("Verification requires assertions: rerun without -O/-OO or PYTHONOPTIMIZE.")
+
 from pathlib import Path
 from fractions import Fraction as Q
 import json

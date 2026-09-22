@@ -39,3 +39,5 @@ The included polynomial and graph-rank routines reconstruct the certificate usin
 ## Discovery
 
 The optional `discovery/` directory preserves the original numerical search and its recorded candidates. The search used NumPy and SciPy; rationalization of the supplied candidates uses only the standard library. Its README explains the distinction between discovering the original table, producing the shorter dual-generated table, and verifying the fixed certificate. Discovery scripts are not called by the proof checker or manuscript build.
+
+Run the verifier without Python optimization (`-O`, `-OO` or `PYTHONOPTIMIZE`). It checks this condition before loading the data and exits with an error if assertions are disabled.

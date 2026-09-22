@@ -6,10 +6,10 @@ authors:
   - family-names: Liu
     given-names: Mingchang
     email: mliu416@gatech.edu
-version: V1
+version: V1.1
 repository-code: "https://github.com/michaeliu4/tutte-threshold"
-url: "https://github.com/michaeliu4/tutte-threshold/releases/tag/V1"
-abstract: "Rational replacement weights and exact verification code accompanying A sharp universal threshold for Tutte-polynomial inequalities."
+url: "https://github.com/michaeliu4/tutte-threshold/releases/tag/V1.1"
+abstract: "Rational replacement weights and exact verification code accompanying The sharp threshold for the multiplicative Merino–Welsh inequality on matroids."
 keywords:
   - Tutte polynomial
   - matroid

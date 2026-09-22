@@ -1,12 +1,12 @@
 # Tutte polynomial replacement weights and verification
 
-Computational companion to **A sharp universal threshold for Tutte-polynomial inequalities**. Release **V1** accompanies manuscript **V1**.
+Computational companion to **The sharp threshold for the multiplicative Merino–Welsh inequality on matroids**. Release **V1.1** accompanies the revised manuscript **V1**.
 
 The paper determines the least universal evaluation parameter for a product inequality of Tutte polynomials over finite matroids without loops or coloops. This repository supplies the rational replacement weights and exact calculations used in Lemma 3.1 and Appendix A, *Replacement weights and their verification*.
 
 ## Verify the replacement inequalities
 
-Use Python 3.10 or later. The verification requires only the standard library.
+Use Python 3.10 or later. The verification requires only the standard library. Run without `-O`, `-OO` or `PYTHONOPTIMIZE`; optimized execution is rejected because it disables the assertions used by the checker.
 
 ```sh
 python3 companion/verify.py
@@ -51,8 +51,8 @@ The [companion README](companion/README.md) explains the data format and verific
 
 ## Version and citation
 
-Use the [V1 release](https://github.com/michaeliu4/tutte-threshold/releases/tag/V1) when checking manuscript V1. The release fixes the code and data used for that version; `main` may receive later changes.
+Use the [V1.1 release](https://github.com/michaeliu4/tutte-threshold/releases/tag/V1.1) when checking manuscript V1. V1.1 adds an optimized-mode safeguard to the checker and updates the manuscript title in the documentation. The rational data, polynomial comparisons and generated tables are unchanged from V1. The original V1 tag is preserved; `main` may receive later changes.
 
-Mingchang Liu. *Tutte polynomial replacement weights and verification*. V1. Computational companion to *A sharp universal threshold for Tutte-polynomial inequalities*. [GitHub repository](https://github.com/michaeliu4/tutte-threshold).
+Mingchang Liu. *Tutte polynomial replacement weights and verification*. V1.1. Computational companion to *The sharp threshold for the multiplicative Merino–Welsh inequality on matroids*. [GitHub repository](https://github.com/michaeliu4/tutte-threshold).
 
 Machine-readable citation information is provided in `CITATION.cff`.
