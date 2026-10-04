@@ -56,3 +56,9 @@ Use the [V1.1 release](https://github.com/michaeliu4/tutte-threshold/releases/ta
 Mingchang Liu. *Tutte polynomial replacement weights and verification*. V1.1. Computational companion to *The sharp threshold for the multiplicative Merino–Welsh inequality on matroids*. [GitHub repository](https://github.com/michaeliu4/tutte-threshold).
 
 Machine-readable citation information is provided in `CITATION.cff`.
+
+## Lean formalization
+
+The standalone Lean development is described in [lean/README.md](lean/README.md). It formalizes the paper's Theorems 1.1–1.3 for finite matroids without loops or coloops, with no added mathematical axioms. It uses a separate proof route and includes a kernel-checked rational certificate table. The Lean README gives the exact declarations, reproduction commands and recorded statement-mapping and review limits.
+
+The V1.1 computational companion and frozen manuscript versions are unchanged. See [SOURCE-PROVENANCE.json](SOURCE-PROVENANCE.json) for the Lean source and dependency pins.
