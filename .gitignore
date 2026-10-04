@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 .DS_Store
 companion/discovery/mixture_certificate.json
+
+# Lean build cache
+/.lake/

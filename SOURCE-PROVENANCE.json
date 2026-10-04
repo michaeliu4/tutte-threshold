@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "package": "tutte-threshold",
+  "source_repository": "Agentic-Systems-LLC/proof-centered-math-lab",
+  "private_source_commit": "b3da9c75451546c72845b58d74308222adb5f9ae",
+  "formal_tree": "2a60ed35e740dcc2e00b9f503690425d5a120157",
+  "proof_sources": [
+    {
+      "source_path": "formal/Results/TutteThreshold/Defs.lean",
+      "source_git_blob_sha": "ba8b55eba017a2e74f627ee7796b37d8bf7d6eac",
+      "public_path": "lean/Results/TutteThreshold/Defs.lean",
+      "public_git_blob_sha": "ba8b55eba017a2e74f627ee7796b37d8bf7d6eac"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/AlgLoss.lean",
+      "source_git_blob_sha": "a3184f11f73d9f44f6eebb6d46be13f7731aea41",
+      "public_path": "lean/Results/TutteThreshold/Solution/AlgLoss.lean",
+      "public_git_blob_sha": "a3184f11f73d9f44f6eebb6d46be13f7731aea41"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/AlgReduce.lean",
+      "source_git_blob_sha": "b88405cc1459624c27f3a990933d9f26e98480fb",
+      "public_path": "lean/Results/TutteThreshold/Solution/AlgReduce.lean",
+      "public_git_blob_sha": "b88405cc1459624c27f3a990933d9f26e98480fb"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/AlgRepl.lean",
+      "source_git_blob_sha": "9f4f5cffd7e83e5e5a8100a0e803184a289c1b8b",
+      "public_path": "lean/Results/TutteThreshold/Solution/AlgRepl.lean",
+      "public_git_blob_sha": "9f4f5cffd7e83e5e5a8100a0e803184a289c1b8b"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Asymp.lean",
+      "source_git_blob_sha": "4df628a4b30e10a49f5fdfbeb80b9fc0f51c8a23",
+      "public_path": "lean/Results/TutteThreshold/Solution/Asymp.lean",
+      "public_git_blob_sha": "4df628a4b30e10a49f5fdfbeb80b9fc0f51c8a23"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/AsympAB.lean",
+      "source_git_blob_sha": "62adb1d9a8222ee63aefc9fb245c15d765928250",
+      "public_path": "lean/Results/TutteThreshold/Solution/AsympAB.lean",
+      "public_git_blob_sha": "62adb1d9a8222ee63aefc9fb245c15d765928250"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/AsympStirling.lean",
+      "source_git_blob_sha": "ec2df6c937a615ec2fc649b56212e51b29d8097c",
+      "public_path": "lean/Results/TutteThreshold/Solution/AsympStirling.lean",
+      "public_git_blob_sha": "ec2df6c937a615ec2fc649b56212e51b29d8097c"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Bridge.lean",
+      "source_git_blob_sha": "7b5125251adb2d023cb19bb9d55174008badbc12",
+      "public_path": "lean/Results/TutteThreshold/Solution/Bridge.lean",
+      "public_git_blob_sha": "7b5125251adb2d023cb19bb9d55174008badbc12"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Cert.lean",
+      "source_git_blob_sha": "6b2c61098370b74ee954867e12000e04ddcd8766",
+      "public_path": "lean/Results/TutteThreshold/Solution/Cert.lean",
+      "public_git_blob_sha": "6b2c61098370b74ee954867e12000e04ddcd8766"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Closed.lean",
+      "source_git_blob_sha": "832298e99228537aa32cae1f8fd3ea8c7cefcc29",
+      "public_path": "lean/Results/TutteThreshold/Solution/Closed.lean",
+      "public_git_blob_sha": "832298e99228537aa32cae1f8fd3ea8c7cefcc29"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Components.lean",
+      "source_git_blob_sha": "e843951bdcf4d9884f830d944cf7a3199b0e2c11",
+      "public_path": "lean/Results/TutteThreshold/Solution/Components.lean",
+      "public_git_blob_sha": "e843951bdcf4d9884f830d944cf7a3199b0e2c11"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Coord.lean",
+      "source_git_blob_sha": "13a475ad3ed253f729ee2e2b8703bdb59cbc0174",
+      "public_path": "lean/Results/TutteThreshold/Solution/Coord.lean",
+      "public_git_blob_sha": "13a475ad3ed253f729ee2e2b8703bdb59cbc0174"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Doubling.lean",
+      "source_git_blob_sha": "968e7d0ebbca4ea12caa6c7b20afbcc8a0f84c68",
+      "public_path": "lean/Results/TutteThreshold/Solution/Doubling.lean",
+      "public_git_blob_sha": "968e7d0ebbca4ea12caa6c7b20afbcc8a0f84c68"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/DoublingStruct.lean",
+      "source_git_blob_sha": "7913d92b86c9c8a2922d6b728f3b5797d4001f9c",
+      "public_path": "lean/Results/TutteThreshold/Solution/DoublingStruct.lean",
+      "public_git_blob_sha": "7913d92b86c9c8a2922d6b728f3b5797d4001f9c"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/IndDefs.lean",
+      "source_git_blob_sha": "1359f4d46d57c29adb5ded1b9f23851dfb77e482",
+      "public_path": "lean/Results/TutteThreshold/Solution/IndDefs.lean",
+      "public_git_blob_sha": "1359f4d46d57c29adb5ded1b9f23851dfb77e482"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Induction.lean",
+      "source_git_blob_sha": "941ecc664a860027dc98a111a5181723c473ad1c",
+      "public_path": "lean/Results/TutteThreshold/Solution/Induction.lean",
+      "public_git_blob_sha": "941ecc664a860027dc98a111a5181723c473ad1c"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Lab.lean",
+      "source_git_blob_sha": "0e395c99167df4e8fbf9022d1820222741403d59",
+      "public_path": "lean/Results/TutteThreshold/Solution/Lab.lean",
+      "public_git_blob_sha": "0e395c99167df4e8fbf9022d1820222741403d59"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Main.lean",
+      "source_git_blob_sha": "0924207a9a822b281e8e8f8c5ecea572acbee3ef",
+      "public_path": "lean/Results/TutteThreshold/Solution/Main.lean",
+      "public_git_blob_sha": "0924207a9a822b281e8e8f8c5ecea572acbee3ef"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Posit.lean",
+      "source_git_blob_sha": "2b4f8e42bce1f544ae829b7e4c2302ee099ce1ff",
+      "public_path": "lean/Results/TutteThreshold/Solution/Posit.lean",
+      "public_git_blob_sha": "2b4f8e42bce1f544ae829b7e4c2302ee099ce1ff"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Rk.lean",
+      "source_git_blob_sha": "5cf01d74e3837ced656cf437c5b54a583fcf479f",
+      "public_path": "lean/Results/TutteThreshold/Solution/Rk.lean",
+      "public_git_blob_sha": "5cf01d74e3837ced656cf437c5b54a583fcf479f"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Skel.lean",
+      "source_git_blob_sha": "371788383723881900f236a9bcd06832bef52567",
+      "public_path": "lean/Results/TutteThreshold/Solution/Skel.lean",
+      "public_git_blob_sha": "371788383723881900f236a9bcd06832bef52567"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/StepsA.lean",
+      "source_git_blob_sha": "8b4b2a1477d7f79c0ec54318d231a0defa9ffb0c",
+      "public_path": "lean/Results/TutteThreshold/Solution/StepsA.lean",
+      "public_git_blob_sha": "8b4b2a1477d7f79c0ec54318d231a0defa9ffb0c"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/StepsB.lean",
+      "source_git_blob_sha": "a8b1fef00d31003e6e8191539f5c5a57ce8faa65",
+      "public_path": "lean/Results/TutteThreshold/Solution/StepsB.lean",
+      "public_git_blob_sha": "a8b1fef00d31003e6e8191539f5c5a57ce8faa65"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Thresh.lean",
+      "source_git_blob_sha": "85ee0629abbd9f9eff4371cdee679ccaa2fb4b6d",
+      "public_path": "lean/Results/TutteThreshold/Solution/Thresh.lean",
+      "public_git_blob_sha": "85ee0629abbd9f9eff4371cdee679ccaa2fb4b6d"
+    },
+    {
+      "source_path": "formal/Results/TutteThreshold/Solution/Zsum.lean",
+      "source_git_blob_sha": "c047fa265e05b372f71d581b3bafd78406ea74ce",
+      "public_path": "lean/Results/TutteThreshold/Solution/Zsum.lean",
+      "public_git_blob_sha": "c047fa265e05b372f71d581b3bafd78406ea74ce"
+    }
+  ],
+  "build_pins": [
+    {
+      "source_path": "formal/lake-manifest.json",
+      "source_git_blob_sha": "5f5394da5d3cfe4c3ddc5bcb4db6b72756906e4f",
+      "public_path": "lake-manifest.json",
+      "public_git_blob_sha": "5f5394da5d3cfe4c3ddc5bcb4db6b72756906e4f"
+    },
+    {
+      "source_path": "formal/lean-toolchain",
+      "source_git_blob_sha": "2b61957be5f4986fcc464cb4f62322f2d6ca3dfc",
+      "public_path": "lean-toolchain",
+      "public_git_blob_sha": "2b61957be5f4986fcc464cb4f62322f2d6ca3dfc"
+    }
+  ]
+}
